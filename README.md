@@ -84,9 +84,13 @@ An encoder-decoder (convolutional autoencoder) that reconstructs the full post-a
 python deliverable3_image.py   # runs train() then test(), saves result as deliverable3_results.png
 ```
 
-### Reconstructed Images vs. Ground Truth
 
-![Next Frame Prediction Results](deliverable3_results.png)
+
+### Results
+![MLP Loss](src/mlp_loss.png)
+![CNN Loss](src/cnn_loss.png)
+![Image Loss](src/image_loss.png)
+![Next Frame Prediction](src/deliverable3_results.png)
 
 **Mean Pixel MSE:** *(run `python deliverable3_image.py` to populate)*
 
